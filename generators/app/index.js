@@ -29,7 +29,7 @@ module.exports = class extends Generator {
         this.fs.copy(this.templatePath("test"), this.destinationPath(_path + "/test"));
         // 拷贝文件
         this.fs.copy(this.templatePath("package.json"), this.destinationPath(_path + "/package.json"));
-        this.fs.copy(this.templatePath(".babellrc"), this.destinationPath(_path + "/.babellrc"));
+        this.fs.copy(this.templatePath(".babelrc"), this.destinationPath(_path + "/.babelrc"));
         this.fs.copy(this.templatePath(".eslintignore"), this.destinationPath(_path + "/.eslintignore"));
         this.fs.copy(this.templatePath(".eslintrc.js"), this.destinationPath(_path + "/.eslintrc.js"));
         this.fs.copy(this.templatePath(".gitignore"), this.destinationPath(_path + "/.gitignore"));
