@@ -1,13 +1,13 @@
 {
     "name": "generator-koavuessr",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "description": "基于koa+vue+webpack的项目目录快速生成器",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "url": "git@github.com:woshichenxi2003/koavuessr.git",
+        "url": "https://github.com/woshichenxi2003/koavuessr.git",
         "type": "git"
     },
     "keywords": [
