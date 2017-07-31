@@ -32,11 +32,8 @@ module.exports = class extends Generator {
         this.fs.copy(this.templatePath(".babelrc"), this.destinationPath(_path + "/.babelrc"));
         this.fs.copy(this.templatePath(".eslintignore"), this.destinationPath(_path + "/.eslintignore"));
         this.fs.copy(this.templatePath(".eslintrc.js"), this.destinationPath(_path + "/.eslintrc.js"));
-        this.fs.copy(this.templatePath(".gitignore"), this.destinationPath(_path + "/.gitignore"));
         this.fs.copy(this.templatePath("index.html"), this.destinationPath(_path + "/index.html"));
         this.fs.copy(this.templatePath("server.js"), this.destinationPath(_path + "/server.js"));
-        this.fs.copy(this.templatePath("README.md"), this.destinationPath(_path + "/README.md"));
-        this.fs.copy(this.templatePath("yarn.lock"), this.destinationPath(_path + "/yarn.lock"));
     }
     end() {
         this.log(yosay(
